@@ -1,0 +1,492 @@
+/* common css start */
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box; 
+}
+
+a{
+    text-decoration:none;
+
+}
+
+ul{
+    list-style: none;
+}
+
+
+.container{
+
+width: 1170px;
+margin:auto;
+
+}
+
+.row{
+
+    display:flex;
+    flex-wrap: wrap;
+   
+}
+
+.align-center{ 
+    
+    align-items:center;
+}
+
+ .button{ 
+
+    background-color:#cfc91d;
+
+color:#0b1016;
+
+ text-transform:uppercase; 
+
+font-weight:800;
+
+font-size: 14px;
+
+padding: 18px 43px; 
+
+ display:inline-block;  
+
+ text-align:center;
+
+
+ 
+} 
+
+
+body{
+
+     font-family: 'Open Sans', sans-serif; 
+
+}
+
+
+/* common css end */
+
+
+/* nav bar start */
+
+nav{ 
+
+
+    background-color:#02918b;
+
+   
+}
+
+nav .logo{
+
+   
+    width:40%;
+    
+
+}
+
+nav .menu{
+
+
+    width:60%;
+    text-align:right;
+   
+}
+
+.menu ul li{
+
+    display:inline-block;
+}
+
+.menu ul  li a {
+
+    color:white;
+    text-transform:uppercase; 
+     font-weight:800; 
+     font-size:12px; 
+     padding:25px 25px;
+
+     display:inline-block;
+}
+
+
+/* nav bar end */
+
+
+/* banner starts here  */
+
+
+
+
+ #banner { 
+    background-color: rgba(0, 0, 0, 0.78);
+
+    background-image: url(../Images/banner\(1\).jpg);
+
+    height:723px;  
+
+  /* padding: 210px 0; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* darken => multiply */
+  /* light => screen */
+  background-blend-mode: multiply; 
+  
+} 
+
+
+
+.banner_cnt{
+
+    text-align:center;
+}
+
+.banner_cnt h3{
+
+    font-weight:400;
+    font-size:30px;
+  
+
+     padding: 100px 0px 0px 0px; 
+
+
+    color:#edefef;
+
+    
+}
+
+.banner_cnt h1{
+
+    font-weight:800;
+    font-size:68px;
+    text-transform:uppercase;
+    
+    color:#ffffff;
+    letter-spacing:32px;
+ 
+}
+
+.banner_cnt p{
+
+    font-weight:400;
+    font-size:18px;
+    color:#e0e2e3;
+
+}
+
+
+.banner_cnt img{
+
+    margin: 51px auto; 
+
+     display:block;
+    
+}
+
+
+/* banner end */
+
+/* about me start */
+
+#about {
+    padding: 98px 468px 31px 444px;
+  }
+  
+  #about .details {
+    font-size: 16px;
+    color: #7e8287;
+    text-align: center;
+    padding: 0 118px;
+    margin: 50px 0;
+    line-height:30px;
+  }
+  #about .heading h2 {
+    text-align: center;
+    color: #02918c;
+    font-weight:800;
+    font-size:46px;
+  }
+
+  #about .heading p{
+
+    font-size:16px;
+    padding:32px 491px  41px 470px;
+    text-align: center;
+  }
+  
+  #about .details span {
+    font-weight: 800;
+    font-size: 23px;
+    color: #7e8287;
+  }
+  
+  #about .about_card {
+    width: 25%;
+    text-align: center;
+    
+    padding: 40px 0;
+  }
+
+   
+  
+  
+  #about .about_card span {
+    font-size: 30px;
+    color: #02918c;
+  }
+  
+  #about .about_card h4 {
+    font-size: 16px;
+    color: #7e8287;
+    font-weight: 800;
+    margin: 28px 0;
+  }
+  
+  #about .about_card p {
+    font-size: 11px;
+    color: #7e8287;
+    padding: 0 50px;
+  }
+  
+ 
+/* about me end */
+
+
+
+/* SERVICE STARTS HERE */
+#service{
+    background-image: url(../Images/services.jpg);
+    background-size: cover;
+    padding: 100px 0;
+    
+  }
+  #service .service_left {
+    width: 50%;
+    text-align:left;
+    
+  }
+  
+  #service .heading h2 {
+    text-align: left;
+    font-weight:800;
+    text-transform:uppercase;
+    font-size:46px;
+    color:#02918c;
+    padding-bottom: 43px;
+    
+  }
+
+  #service .heading p {
+    text-align: left;
+
+    font-size:16px;
+    color:#7e8287;
+    padding-bottom: 32px;
+
+  }
+  #service .para1 {
+
+    text-align:left;
+    font-size:16px;
+    color:#86898d;
+    padding-bottom:59px;
+    line-height:34px;
+  }
+  
+
+
+
+  
+  .service_card{
+    width: 47%;
+    text-align:left;
+    
+    padding: 40px 0;
+    padding-right:61px;
+  
+}
+ #service .service_card h4 {
+
+ font-weight: 800; 
+font-size:22px;
+padding-bottom:21px;
+color:#7e8287;
+
+ }
+
+ #service .service_card p{
+
+    font-weight:400;
+    font-size:15px;
+    color:#7e8287;
+    padding-top:21px;
+    padding-bottom:55px;
+ }
+  
+ #service .service_card span{
+
+    font-weight:800;
+    font-size:46px;
+    color:#02918c;
+    
+    padding-bottom:22px;
+    display:inline-block;
+ }
+
+  
+  /* SERVICE ENDS HERE */
+
+
+
+    /* WORK STARTS HERE */
+
+ 
+    #work .work_card {
+        width: 25%;
+        position: relative;
+      
+      }
+      
+      #work .work_card img {
+        width: 100%;
+        display: block;
+      }
+      
+      
+      .work_card .overlay{
+    
+        background-color: #26978e92;
+        position: absolute;
+        inset: 20px ;
+        color: white;
+        text-align: center;
+        padding: 50px 10px;
+        opacity: 0;
+        transition: 0.53s ;
+        margin-top: 100px;
+      }
+      
+      .work_card:hover .overlay{
+        opacity: 1;
+        margin-top: 0px;
+      
+      }
+      
+      
+      /* WORK ENDS HERE */
+  
+  
+/* contact STARTS HERE */
+#contact{
+    background-color: #ffffff;
+    padding: 98px 0;
+    text-align:center;
+  }
+  #contact .heading h2{
+
+text-transform:uppercase;
+font-weight:800;
+font-size:46px;
+color:#02918c;
+padding-top:95px;
+padding-bottom:33px;
+
+  }
+
+  #contact .heading p{
+
+
+font-weight: 400;
+font-size:16px;
+color:#7e8287;
+
+padding-bottom:27px;
+
+  }
+
+ 
+  #contact .details2 {
+    font-size: 16px;
+    color: #7e8287;
+    text-align: center;
+    line-height:31px;
+    padding: 0px 255px 72px  236px;
+
+  }
+
+
+/* contact section 2  STARTS HERE */
+#contact2{
+    background-color: #0a0a0b;
+    padding: 98px 0;
+  }
+  
+  .form-input{
+    width: 640px;
+    margin: auto;
+    
+  }
+  
+  .form-input input{
+
+    font-weight:400;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    font-size:16px;
+    border-bottom: 1px solid white;
+    color:#7e8287;
+    outline: none;
+  }
+  .button2{ 
+
+    
+    background-color:#cfc91d;
+
+color:#0b1016;
+
+ text-transform:uppercase; 
+
+font-weight:800;
+
+font-size: 14px;
+
+padding:18px 43px;
+
+
+ display:inline-block;  
+  
+ text-align:center;
+ 
+ margin: 100px 90px 104px  540px;
+
+
+ 
+} 
+
+
+ /*#contact2 .container  img{
+
+    background-color: #000000; 
+   
+
+    margin: 51px auto; 
+
+    display:block;
+   
+}*/
+
+#contact3 {
+    background-color: #000;
+    color: #7e8287;
+    text-align: center;
+    font-size: 12px;
+    padding: 35px 0;
+}
+
+  
+  /* contact 2 ENDS HERE */
